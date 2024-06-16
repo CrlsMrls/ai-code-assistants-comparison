@@ -1,0 +1,34 @@
+<div class="p-10">
+  <h2 class="text-xl font-bold text-gray-800 dark:text-white">{{component.name}}</h2>
+  <div class="flex items-center justify-center fixed p-4">
+    <div class="flex flex-row gap-4">
+    @switch (component.url) {
+      @case ('card') {
+
+        <app-card title="Card with title only">
+          <p class="text-gray-600 dark:text-gray-400">Body content...</p>
+        </app-card>
+
+        <app-card title="Card with subtitle" subTitle="Card subtitle" >
+          <p class="text-gray-600 dark:text-gray-400">Body content...</p>
+        </app-card>
+        
+        
+        <app-card title="Card with link" subTitle="Card subtitle" link="https://www.google.com">
+          <p class="text-gray-600 dark:text-gray-400">Body content...</p>
+        </app-card>
+      }
+      @case ('button') {
+        <app-button [text]="'Primary action'" type="primary" (click)="onButtonClick('primary')"></app-button>
+        <app-button [text]="'Secondary action'" (click)="onButtonClick('secondary')"></app-button>
+      }
+      @case ('button-group') {
+        <app-button-group [options]="sizes" legend="Select one size" (selected)="onGroupSelected($event)"></app-button-group>
+      }
+      @case ('radio') {
+        <app-radio-group [options]="sizes" legend="Select one size" (selected)="onRadioSelected($event)"></app-radio-group>
+      }
+    }
+    </div>
+  </div>
+</div>

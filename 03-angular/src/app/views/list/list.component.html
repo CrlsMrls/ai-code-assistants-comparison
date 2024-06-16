@@ -1,0 +1,12 @@
+<div class="p-10">
+  <h2 class="text-xl font-bold text-gray-800 dark:text-white">Available Components</h2>
+  <div class="flex items-center justify-center fixed p-4">
+    <ul  role="list" class="divide-y  divide-gray-600 dark:divide-gray-200">
+      @for(item of items; track $index) {
+      <li class="gap-x-6 gap-y-2 py-2 sm:flex-nowrap">
+        <a routerLink="/component/{{ item.url }}" class="text-blue-500 hover:text-blue-700">{{ item.name }}</a>
+      </li>
+      }
+    </ul>
+  </div>
+</div>

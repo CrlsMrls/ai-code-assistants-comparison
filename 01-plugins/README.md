@@ -4,7 +4,7 @@ The first topic is to compare plugins. Although this is just the interface to th
 
 Topics to focus on:
 
-- **Chat interface.** Add a short question like `how can I use the code assistant?`. Check the user experience. Clear the text box.
+- **Chat interface.** Add a short question like `how can I use the code assistant?`. Check the user experience, can you ask follow-up questions, clear the text box, vote on the answer, etc.
 - **Code completion.** Try to write a simple function and see if the code assistant can complete it. What is the performance?
 - **Code generation.** While writing in the same code file, what are the integrated options available? Left menu, shortcuts?
 - **Plugin configuration.** Can you configure the plugin to your needs? For example, what shortcuts are available? Can I easily disable it temporally?

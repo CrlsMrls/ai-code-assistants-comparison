@@ -6,8 +6,14 @@ These are popular questions, feel free to add your own questions though.
 
 ## Git
 
-- `I accidentally locally commited some files with Git. How do I undo the latest local commit?` 
-- `Is it possible to do the same if I accidentally pushed the changes to the remote location?`
+```text
+I accidentally locally commited some files with Git. How do I undo the latest local commit?
+```
+
+```text
+Is it possible to do the same if I accidentally pushed the changes to the remote location?
+```
+
 
 ## JavaScript
 

@@ -1,6 +1,6 @@
 # Fix security issues in a Java-based backend service
 
-In this project, you will fix issues in a Java-based backend service that provides a file upload functionality. The backend service is a clone from the [Spring Boot Uploading Files guide](https://spring.io/guides/gs/uploading-files). The guide walks on the steps to create a Spring Boot application that provides a REST API to upload files. 
+In this project, you will fix issues in a Java-based backend service that provides a file upload functionality. The backend service is a clone from the [Spring Boot Uploading Files guide](https://spring.io/guides/gs/uploading-files). The introductory guide walks on the steps to create a Spring Boot application that provides a REST API to upload files. 
 
 Here, the goal is to ask the AI Code assistant what security issues it may find, how to fix them and add unit tests to verify that those security issues are fixed.
 
